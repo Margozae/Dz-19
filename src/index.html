@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hillel home work</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="mainStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="formAuthorization">
+            <h2>Authorization</h2>
+            <input class="login" type="text" placeholder="login" />
+            <input class="password" type="password" placeholder="password" />
+            <button class="authorizationBtn" type="submit">Sign in</button>
+        </form>
+        <div class="toDoList displayNone">
+            <form class="formList">
+                <input class="textArea" type="text" placeholder="Enter your note">
+                <button class="addBtn" type="submit">Add note</button>
+            </form>
+            <ul class="note-list">
+            </ul>
+        </div>
+
+        <div class="banter-loader displayNone">
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+        </div>
+    </div>
+    <script src="../node_modules/moment/moment.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
